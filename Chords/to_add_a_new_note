@@ -1,0 +1,9 @@
+go just above setup
+add: notename = Note("notename",string1,string2,string3,string4,string5,string6,barposition)
+go just above draw
+add: notename.display()
+in draw
+add: notename.click()
+if mousePressed and c.overbox==True:
+        notename.play()
+# Hans Lehnardt
